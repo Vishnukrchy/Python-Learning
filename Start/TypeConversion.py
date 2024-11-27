@@ -51,6 +51,12 @@ b = list(a)
 print("type(b) ", type(b))
 print(b) # Output: ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']    
 
+# Converting  double to int
+a = 123.45
+print("type(a) ", type(a))
+b = int(a)
+print("type(b) ", type(b))  
+print(b) # Output: 123
 
 
 
