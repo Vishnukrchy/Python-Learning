@@ -25,3 +25,12 @@ list.sort()
 
 print(list)
 
+set1 = {9,9.0}
+print(set1) # it will print set => {9}
+set1.add("9.0")
+print(set1) # it will print set => {9, '9.0'}
+
+
+
+
+
