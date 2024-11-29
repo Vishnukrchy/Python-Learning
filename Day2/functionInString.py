@@ -16,7 +16,7 @@
 
 #len() function = providise the length of string
 name="ram";
-print(len(name));
+print(len(name));#3
 
 #upper() function = convert the string into upper case
 name="ram";
@@ -66,6 +66,11 @@ name="mohan kumar";
 print(name.split(" "));#['mohan', 'kumar']
 arr = name.split("a");
 print(arr);#['moh', 'n kum', 'r']
+print(type(arr));#<class 'list'>
+print(type(name));#<class 'str'>
+name=name.split(" ");
+print(name);#['mohan', 'kumar']
+print(type(name));#<class 'list'>
 
 #join() function = join the list into a string  
 name="mohan kumar";
