@@ -51,3 +51,12 @@ def power(a,b=2):
 power(2)# 2 to the power of 2
 power(5)
 power(2,3)# 2 to the power of 3
+
+# finctions With default values
+def info(first_name,last_name,age=30):
+    print("First Name : ",first_name)   
+    print("Last Name : ",last_name)
+    print("Age : ",age)
+info(first_name="sohan",last_name="navish")    
+info(first_name="mohan",last_name="kumar",age=20)
+#info(last_name="rohan",first_name="choudhray",10)# error => SyntaxError: non-default argument follows default argument                                                  ^
