@@ -1,0 +1,62 @@
+### **List Practice Questions:**
+
+1. **List Reversal:** Write a Python function that takes a list and returns the list reversed.
+   
+2. **Find the Largest Number in a List:** Write a function to find the largest number in a list of integers.
+
+3. **List Slicing:** Given a list of numbers, return a new list containing the first three elements, and then another with the last three elements.
+
+4. **Sum of Elements in a List:** Write a Python function that takes a list of numbers and returns the sum of all elements.
+
+5. **List Comprehension for Even Numbers:** Given a list of numbers, use a list comprehension to return a new list containing only the even numbers.
+
+6. **Count Occurrences of an Element in a List:** Write a Python function that counts the occurrences of a specific element in a list.
+
+---
+
+### **Tuple Practice Questions:**
+
+1. **Tuple Swapping:** Given two variables `a` and `b` with values, swap their values using tuples.
+
+2. **Tuple Unpacking:** Given a tuple `(1, 2, 3, 4, 5)`, unpack it into individual variables `a, b, c, d, e`. Then print each of the variables.
+
+3. **Find the Index of an Element in a Tuple:** Write a Python function to find the index of a given element in a tuple.
+
+4. **Concatenate Tuples:** Given two tuples `(1, 2, 3)` and `(4, 5, 6)`, concatenate them into a single tuple.
+
+5. **Convert a Tuple to a List:** Write a Python function that converts a tuple into a list.
+
+6. **Tuple Comparison:** Given two tuples, compare them and check if they are equal or not.
+
+---
+
+### **Set Practice Questions:**
+
+1. **Union of Two Sets:** Write a Python function that returns the union of two sets.
+
+2. **Intersection of Sets:** Given two sets, write a Python function that returns their intersection.
+
+3. **Set Difference:** Write a Python function that returns the difference between two sets (elements in the first set but not in the second).
+
+4. **Check if a Set is a Subset of Another:** Write a function that checks if one set is a subset of another set.
+
+5. **Remove Duplicates from a List Using Set:** Given a list, write a Python function to remove duplicates by converting it into a set.
+
+6. **Symmetric Difference:** Given two sets, find and return the symmetric difference (elements in either set, but not in both).
+
+---
+
+### **Dictionary Practice Questions:**
+
+1. **Accessing Dictionary Values:** Write a Python function to get the value of a given key in a dictionary.
+
+2. **Add or Update a Key in a Dictionary:** Write a Python function that adds a new key-value pair to a dictionary or updates the value if the key already exists.
+
+3. **Merge Two Dictionaries:** Write a Python function that merges two dictionaries into one.
+
+4. **Get Keys and Values:** Given a dictionary, write a Python function to return a list of keys and a list of values.
+
+5. **Count Frequency of Elements in a List Using a Dictionary:** Write a function that counts the frequency of each element in a list and stores the result in a dictionary.
+
+6. **Check if a Key Exists in a Dictionary:** Write a Python function to check if a specific key exists in a dictionary.
+
