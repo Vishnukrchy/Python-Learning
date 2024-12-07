@@ -18,13 +18,26 @@ outer_function()
 # example 2 =>
 def outer_function():
     sum=0
-    print("Sum in outer function scope ",sum)
+    print("Sum in outer function scope ",sum)#0
     def inner_function():
         nonlocal sum # here we can access sum variable outside the function and inside the function because its nonlocal variable and can only be accessed within that function.
         sum =12+90
-        print("Sum in inner function scope ",sum)
+        print("Sum in inner function scope ",sum)# 102
     inner_function()
-    print("Sum in outer function scope ",sum)
+    print("Sum in outer function scope ",sum)#102
+outer_function()
+
+#
+print("=======================  1 =======================")
+
+def outer_function():
+    sum=0
+    print("Sum in outer function scope ",sum)#0
+    def inner_function():
+        sum =12+90
+        print("Sum in inner function scope ",sum)# 102
+    inner_function()
+    print("Sum in outer function scope ",sum)#102
 outer_function()
 
     
