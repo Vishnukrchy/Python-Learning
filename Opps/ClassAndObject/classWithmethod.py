@@ -38,3 +38,17 @@ class Person:
 person=Person()
 person.setDetails("Vishnu",23,"Noida")
 person.printDetails()
+
+class Bike:
+    name=""
+    clour=""
+    def setDetails(self,name,clour):
+        self.name=name
+        self.clour=clour    
+    def printDetails(self):
+        print("Name: ",self.name)
+        print("Clour: ",self.clour)
+
+b=Bike()
+b.setDetails("Yamaha","Red")
+b.printDetails()
