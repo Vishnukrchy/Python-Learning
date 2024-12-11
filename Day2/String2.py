@@ -49,7 +49,7 @@ print(name[:]);#0,1,2,3,4,5,6,7,8,9,10,11,12 => 0 is inclusive and 13 is exclusi
 
 name1="sohan";
 #slicing in reverse or negative indexing in this satrting index is inclusive and ending index is exclusive
-print(name1[-1:-3]);#-1,-2,-3,-4 => -1 is inclusive and -5 is exclusive ==> oh
+print(name1[-1:-3]);#-1,-2,-3,-4 => -1 is inclusive and -5 is exclusive ==> 
 print(name1[-3:-1]);#-1,-2,-3,-4 => -1 is inclusive and -5 is exclusive ==> oh
 print(name1[-1:]);#-1,-2,-3,-4 => -1 is inclusive and -5 is exclusive ==> ohan
 
