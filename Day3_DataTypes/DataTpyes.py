@@ -23,7 +23,7 @@ print(type(example))
 
 print(example[0])# it will print first characte => h
 print(example[2:5])# it will print from index 2 to 4 => 
-example[0] = "H" # we can not change the value of string on the based of index  becaused its immutable
+example[0] = "H" # Error :  we can not change the value of string on the based of index  becaused its immutable
 
 
 #(3) List => list is a collection of items in a particular order

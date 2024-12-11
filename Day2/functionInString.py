@@ -53,6 +53,7 @@ print(name.find("z"))#-1
 name="mohan kumar";
 print("index of "+name[3]+" is ",name.index("a"))#3
 print(name.index("k"))#6
+print(name.index("z"))#ValueError: substring not found
 
 #replace() function = replace the character in a string 
 name="mohan kumar";
@@ -60,6 +61,7 @@ age="23";
 print(name.replace("mohan","sohan"));#sohan kumar
 age=age.replace("23","24");
 print("{} is my age {}".format(name,age));#sohan is my age 24
+
 
 #split() function = split the string into a list  
 name="mohan kumar";

@@ -28,7 +28,7 @@ print(len(tuple))# it will print length of tuple => 5
 #tumple is immutable, you can not change the value of a tuple after it is created.
 tup=(23,45,67,89)
 print(tup)# it will print tuple => (23, 45, 67, 89)
-tup[0]=90 # we can not change the value of tuple on the based of index
+tup[0]=90 #Error we can not change the value of tuple on the based of index
 
 
 # tuple is immutable, you can not change the value of a tuple after it is created.
