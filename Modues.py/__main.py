@@ -1,4 +1,4 @@
-# python main funvtions
+# python main funtions
 if __name__ == "__main__":
     print("this is main function") 
 # it will print this is main function
