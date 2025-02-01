@@ -1,5 +1,6 @@
 # assert statement
-# assert statement is used to check if a condition is True or False. If the condition is False, then assert statement raises an AssertionError.
+# assert statement is used to check if a condition is True or False. If the condition is False, then assert statement raises an AssertionError.If the condition is True, then assert statement does not raise any error and the program continues to execute.
+
 
 # expample 1
 
